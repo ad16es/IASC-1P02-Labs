@@ -1,0 +1,25 @@
+#greenBox {
+  background-color: green;
+}
+
+div div{
+  margin-left: 10px;
+  margin-right: 10px;
+  border: black dotted 3.5px;
+  padding: 10px;
+}
+
+#redText {
+  color: red;
+  font-size: 12px;
+}
+
+#greenText {
+  color: DarkGreen;
+  font-size: 12px;
+}
+
+p{
+  color: purple;
+  font-size: 12px;
+}
