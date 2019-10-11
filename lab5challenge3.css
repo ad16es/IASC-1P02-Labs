@@ -1,0 +1,39 @@
+#wrapper {
+  background-color: green;
+  height: 1000px;
+  margin: 0;
+  position: relative;
+}
+
+p {
+  margin: 0;
+}
+
+#blue {
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 20%;
+  top: 15px;
+  padding-top: 10px;
+}
+
+#red {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 20%;
+  top: 15px;
+  padding-top: 10px;
+}
+
+#yellow {
+  background-color: yellow;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 280px;
+  left: calc(50% - 125px);
+}

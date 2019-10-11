@@ -1,0 +1,39 @@
+h2,p{
+  color: white;
+}
+
+body {
+  margin: 10px 0 ;
+}
+
+#wrapper {
+  margin: 10px 110px;
+}
+
+#header {
+  background-color: red;
+  height: 70px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+#leftside {
+  background-color: green;
+  height: 500px;
+  width: 100%;
+  float: left;
+  font-size: 12px;
+}
+
+#footer {
+  background-color: blue;
+  height: 70px;
+  clear: left;
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+#footer > p {
+  margin: 0;
+}
