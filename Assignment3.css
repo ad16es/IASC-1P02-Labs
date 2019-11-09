@@ -1,0 +1,68 @@
+#wrapper {
+  width: 1300px;
+  height: 700px;
+  margin: 0 auto;
+  background-color: grey;
+}
+
+#header {
+  width: 650px;
+  height: 90px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: maroon;
+  color: white;
+  font-family: Arial;
+}
+
+h2 {
+  color: maroon;
+  font-size: 30px;
+  font-family: Arial;
+}
+
+p,ul {
+  font-size: 15px;
+  font-family: Arial;
+}
+
+#about {
+  width: 300px;
+  height: 100px;
+  background-color: green;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+#leftmenu {
+  width: 300px;
+  height: 450px;
+  float: left;
+  background-color: lightyellow;
+  padding-left: 20px;
+}
+
+#rightmenu {
+  width: 300px;
+  height: 450px;
+  float: right;
+  background-color: orange;
+  padding-left: 20px;
+}
+
+#carimage {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+#events {
+  width: 300px;
+  height: 150px;
+  background-color: lightblue;
+  margin: 0 auto;
+  text-align: center;
+}
