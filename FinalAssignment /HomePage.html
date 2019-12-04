@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <title>Home Page</title>
+    <link href="HomePage.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="header"> <h1>Spain</h1>
+      </div>
+
+      <div id="leftside">
+        <a id="capital" href="Capital.html">The Capital City</a>
+        <br />
+        <a id="tosee" href="ToSee.html">Things to See</a>
+        <button id="learnspanish" onclick="myFunction()"> Try Spanish</button>
+        <script>
+        function myFunction() {
+          alert("Buenos días — Good morning");
+          alert("¿Cómo estás? — How are you?");
+        }
+        </script>
+      </div> <!-- this was found on https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert -->
+
+      <div id="rightside">
+        <p> <strong>Spain</strong>, or España, is a European Country in Southwestern Europe, specifically the Iberian Peninsula. Spain is offically called, <em>Reino de España</em>, which translates to "Kingdom on Spain" It's coast touch two bodies of water, the Mediterranean Sea on the East, and the Atlantic Ocean on the West.
+        Spain's population is made up of 47 million people making it the fourth largest country in the European continent. (“Spain.” Wikipedia, Wikimedia Foundation, 1 Dec. 2019.)</p>
+        <img id="map" src="Map.jpeg">
+      </div>
+      <div="bottom">
+        <p id="datetime"></p>
+      </div>
+
+    </div>
+
+  </body>
+
+  <script type="text/javascript" src="HomePage.js"></script>
+</html>

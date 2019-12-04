@@ -1,0 +1,83 @@
+body{
+  color: black;
+  font-family: "Arial";
+  background-color: #F2E6E4;
+}
+
+/* colour codes found on https://htmlcolorcodes.com */
+#wrapper{
+  width: 1400px;
+  length: 610px;
+  margin: 0 auto;
+  background-color: #C4B6B4;
+}
+
+#header{
+  height: 50px;
+  text-align: center;
+  background-color: #D3D1D1;
+  padding-top: 2px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-family: fantasy;
+}
+
+#map{
+  position: relative;
+  height: 500px;
+  width: 600px;
+  left: 270px;
+  border: solid black 2px;
+}
+
+#leftside{
+  float: left;
+  width: 190px;
+  height: 610px;
+  background-color: #FCECB6;
+}
+
+a:hover{
+  color: black;
+  background-color: #FBCCCA;
+	text-decoration: none;
+}
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+
+#capital{
+  position: relative;
+  left: 50px;
+  top: 150px;
+  font-family: fantasy;
+}
+
+#tosee{
+  position: relative;
+  left: 50px;
+  top: 250px;
+  font-family: fantasy;
+}
+
+#rightside{
+  float: right;
+  width: 1210px;
+  background-color: #C4B6B4;
+  font-family: fantasy;
+}
+
+#datetime{
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+}
+
+#learnspanish{
+  position: relative;
+  right: 40px;
+  top: 350px;
+  background-color: #C4B6B4;
+}
